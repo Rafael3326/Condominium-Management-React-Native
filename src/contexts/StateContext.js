@@ -3,7 +3,7 @@ import UserReducer from "../reducers/UserReducer";
 
 const InitialState = {
 
-    user: UserReducer
+    user: UserReducer()
 }   // setting the initial state
 
 const MainReducer = (state, action) => ({
